@@ -1,0 +1,17 @@
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\liamc\Documents\Github\Basic-C-Sharp-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\bin\Debug\Casino.dll
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\bin\Debug\Casino.pdb
+C:\Users\liamc\Documents\Github\C-Sharp-Coding-Projects\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CopyComplete
