@@ -20,6 +20,11 @@ namespace CarInsurance.Controllers
             return View(db.Insurees.ToList());
         }
 
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
+        }
+
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -50,6 +55,49 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                decimal basequote = 50;
+
+                TimeSpan age = DateTime.Now.Subtract(insuree.DateOfBirth);
+                if(age.TotalDays/365 <= 18)
+                {
+                    basequote += 100;
+                }
+                else if (age.TotalDays / 365 >= 19 && age.TotalDays/365 <= 25)
+                {
+                    basequote += 50;
+                }
+
+                if (insuree.CarYear < 2000 || insuree.CarYear >2015)
+                {
+                    basequote += 25;
+                }
+
+                if (insuree.CarMake == "Porsche")
+                {
+                    basequote += 25;
+                }
+                if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
+                {
+                    basequote += 25;
+                }
+
+                if(insuree.SpeedingTickets > 0)
+                {
+                    int speedfine = 10;
+                    basequote = basequote + (speedfine * insuree.SpeedingTickets);
+                }
+
+                if (insuree.DUI == true)
+                {
+                    basequote = basequote + (basequote / 100 * 25);
+                }
+
+                if (insuree.CoverageType == true)
+                {
+                    basequote = basequote + (basequote / 100 * 50);
+                }
+
+                insuree.Quote = basequote;
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
